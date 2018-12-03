@@ -1,0 +1,36 @@
+/* Montserrat */ 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100, 200, 300,400,500,600,700,800,900');
+
+/* NanumSquare */
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url(font_NanumSquare/NanumSquareL.eot);
+ src: url(font_NanumSquare/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(font_NanumSquare/NanumSquareL.woff) format('woff'),
+      url(font_NanumSquare/NanumSquareL.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(font_NanumSquare/NanumSquareR.eot);
+ src: url(font_NanumSquare/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(font_NanumSquare/NanumSquareR.woff) format('woff'),
+      url(font_NanumSquare/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(font_NanumSquare/NanumSquareB.eot);
+ src: url(font_NanumSquare/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(font_NanumSquare/NanumSquareB.woff) format('woff'),
+      url(font_NanumSquare/NanumSquareB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url(font_NanumSquare/NanumSquareEB.eot);
+ src: url(font_NanumSquare/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+      url(font_NanumSquare/NanumSquareEB.woff) format('woff'),
+      url(font_NanumSquare/NanumSquareEB.ttf) format('truetype');
+}

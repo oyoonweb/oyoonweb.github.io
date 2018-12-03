@@ -1,0 +1,608 @@
+/************************************* HEADER */
+.header_wrap{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+.header_blank{
+    flex: 7.5;
+    width: 100%;
+}
+.header_wrap_in{
+    flex: 2.5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header_nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_nav a{
+    font-size: 0.9em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header_nav a:hover{
+    border-bottom: 2px solid #222;
+}
+
+/************************************* HOME */
+.home_wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home_logo{
+    display: none;
+    width: 230px;
+    height: 230px;
+    background-image: url(../img/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home_title{
+    display: none;
+    margin-top: 20px;    
+}
+.home_title h1{
+    font-size: 4em; 
+    font-weight: 500;    
+}
+.home_title
+.p1{
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 0.38em;
+    margin-left: 0.45em;
+}
+.home_title
+.p2{
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 0.515em;
+    margin-left: 0.6em;
+}
+/************************************* WORKS */
+.mainSlide_wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mainSlide_row{
+    flex: 1;
+    display: flex;
+}
+.mainSlide_work{
+    flex: 1;
+    overflow: hidden;
+}
+.mainSlide_work a{
+    text-decoration: none;
+}
+.mainSlide_work_in{
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainSlide_work_in_bg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSlide_work_in div h1{
+    font-size: 0em;
+    font-weight: 500;
+}
+.mainSlide_work_in div p{
+    font-size: 0em;
+    font-weight: 500;
+}
+.mainSlide_work_in:hover{
+    transform: scale(1.2);
+}
+.mainSlide_work_in:hover .mainSlide_work_in_bg{
+    background: rgba(0, 0, 0, 0.5);    
+}
+.mainSlide_work_in:hover
+.mainSlide_work_in_bg h1{
+    font-size: 1.5em;
+    color: #fff;
+}
+.mainSlide_work_in:hover
+.mainSlide_work_in_bg p{
+    font-size: 1em;
+    color: #fff;
+}
+    #mainSlide_work1{
+        background-image: url(../img/concerthall_1.jpg);   
+    }
+    #mainSlide_work2{
+        background-image: url(../img/adoy_1.jpg);    
+    }
+    #mainSlide_work3{
+        background-image:url(../img/yda_1.jpg);   
+    }
+    #mainSlide_work4{
+        background-image: url(../img/lcd_1.jpg);
+    }
+    #mainSlide_work6{
+        background-image: url(../img/gpg_1.jpg);   
+    }
+    #mainSlide_work7{
+        background-image: url(../img/gsneotek_1.jpg)
+    }
+    #mainSlide_work8{
+        background: pink;    
+    }
+    #mainSlide_work9{
+        background-image: url(../img/o5gam.jpg);
+    }
+#mainSlide_work5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+#mainSlide_work5:hover{
+    background-color: #000;
+}
+#mainSlide_work5:hover h1,
+#mainSlide_work5:hover p
+{
+    color: #fff;
+}
+#mainSlide_work5 a{
+    text-decoration: none;
+}
+#mainSlide_work5 div
+.h1{
+    font-size: 3em;
+}
+#mainSlide_work5 div
+.p1{
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 0.09em;
+    margin-left: 0.1em;
+}
+#mainSlide_work5 div
+.p2{
+    font-size: 1.6em;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    margin-left: 0.2em;
+}
+/**************** WORKS_subSlide */
+.slide_wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.slide_left_wrap{
+    flex: 7.5;
+    width: 100%;
+    height: 100%;
+}
+.slide_left_wrap_in{
+    width: 100%;
+    height: 100%;
+    background: green;
+}
+#slide_left_scroll{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: block;
+}
+#slide_left_scroll .box{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    #slide_left_scroll #box1-1{
+        background-image: url(../img/concerthall_1.jpg);
+    }
+    #slide_left_scroll #box1-2{
+        background-image: url(../img/concerthall_2.jpg);
+    }
+    #slide_left_scroll #box1-3{
+        background-image: url(../img/concerthall_3.jpg);
+    }
+    #slide_left_scroll #box1-4{
+        background-image: url(../img/concerthall_4.jpg);
+    }
+    #slide_left_scroll #box1-5{
+        background-image: url(../img/concerthall_5.jpg);
+    }
+    #slide_left_scroll #box2-1{
+        background-image: url(../img/adoy_1.jpg);
+    }
+    #slide_left_scroll #box2-2{
+        background-image: url(../img/adoy_2.jpg);
+    }
+    #slide_left_scroll #box2-3{
+        background-image: url(../img/adoy_3.jpg);
+    }
+    #slide_left_scroll #box2-4{
+        background-image: url(../img/adoy_4.jpg);
+    }
+    #slide_left_scroll #box3-1{
+        background-image: url(../img/yda_1.jpg);
+    }
+    #slide_left_scroll #box3-2{
+        background-image: url(../img/);
+        background-color: salmon;
+    }
+    #slide_left_scroll #box4-1{
+        background-image: url(../img/);
+        background-color: yellow;
+    }
+    #slide_left_scroll #box4-2{
+        background-image: url(../img/);
+        background-color: blueviolet;
+    }
+    #slide_left_scroll #box5-1{
+        background-image: url(../img/);
+        background-color: green;
+    }
+    #slide_left_scroll #box5-2{
+        background-image: url(../img/);
+        background-color: blue;
+    }
+    #slide_left_scroll #box6-1{
+        background-image: url(../img/gsneotek_1.jpg);
+        background-color: orange;
+    }
+    #slide_left_scroll #box6-2{
+        background-image: url(../img/);
+        background-color: pink;
+    }
+.slide_right_wrap{
+    flex: 2.5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slide_right_wrap_in{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.slide_right_text1{
+    width: 100%;
+}
+.slide_right_text1 h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.slide_right_text1 p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.slide_right_text2{
+    margin-top: 30px;
+    width: 100%;
+}
+.slide_right_text2 .padding{
+    padding-top: 20px;
+}
+.slide_right_text2 h1{
+    font-size: 1em;
+    font-weight: 600;
+}
+.slide_right_text2 p{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.slide_right_text3{
+    width: 100%;
+    margin-top: 30px;
+}
+.slide_right_text3 p{
+    font-family: "NanumSquare";
+    font-size: 1em;
+    font-weight: 400;
+}
+.viewOthers{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #000;
+}
+.viewOthers h1{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #fff;
+}
+
+/************************************* ABOUT */
+.about_wrap{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/about_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about_wrap_in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.about_left_wrap{
+    flex: 7.5;
+    width: 100%;
+    height: 100%;
+}
+.about_right_wrap{
+    flex: 2.5;
+    width: 100%;
+    height: 100%;
+}
+.about_right_wrap_in{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+/**************** ABOUT_name */
+.about_right_text1{
+    width: 100%;
+    display: flex;
+}
+.about_right_text1
+.name1{
+    flex: 4;
+}
+.about_right_text1
+.name1 h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+.about_right_text1
+.name2{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.about_right_text1
+.name2 p{
+    font-family: "NanumSquare";
+    font-size: 1em;
+    font-weight: 400;
+}
+/**************** ABOUT_greeting */
+.about_right_text2{
+    width: 100%;
+    margin-top: 2%;
+}
+.about_right_text2
+.hello p{
+    font-family: "NanumSquare";
+    font-size: 0.85em;
+    font-weight: 400;
+}
+/**************** ABOUT_skills */
+.about_right_text3{
+    width: 100%;
+    margin-top: 15%;
+}
+.about_right_text3
+.about_right_text3_wrap{
+    width: 100%;
+}
+.about_right_text3_wrap
+.skills_title h1{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.about_right_text3_wrap
+.skills_text_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about_right_text3_wrap
+.skills_text_wrap
+.skills{
+    width: 30%;
+    margin-top: 2%;
+    text-align: center;
+    border: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_right_text3_wrap
+.skills_text_wrap
+.skills:hover{
+    cursor: pointer;
+    background-color: #222;
+}
+.about_right_text3_wrap
+.skills_text_wrap
+.skills:hover div h1{
+    color: #fff;
+}
+
+.about_right_text3_wrap
+.skills_text_wrap
+.skills div h1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+/**************** ABOUT_educations */
+.about_right_text4{
+    width: 100%;
+    margin-top: 15%;                
+}
+.about_right_text4
+.about_right_text4_wrap{
+    width: 100%;
+}
+.about_right_text4_wrap
+.educations_title h1{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.about_right_text4_wrap
+.educations_text{
+    width: 100%;
+    margin-top: 2%;
+}
+.about_right_text4_wrap
+.educations_text
+.educations{
+    width: 100%;
+    padding-bottom: 5%;
+    display: flex;
+}
+.about_right_text4_wrap
+.educations_text
+.educations
+.period{
+    flex: 5;
+}
+.about_right_text4_wrap
+.educations_text
+.educations
+.course{
+    flex: 5;
+}
+.about_right_text4_wrap
+.educations_text
+.educations h1{
+    font-size: 1em;
+    font-weight: 400;
+}
+.about_right_text4_wrap
+.educations_text
+.educations p{
+    font-family: "NanumSquare";
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/************************************* CONTACT */
+#contact_video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*
+.contact_wrap{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.contact_wrap_in{
+    height: 100%;
+    display: flex;
+}
+.contact_left_wrap{
+    flex: 7.5;
+    width: 100%;
+}
+.contact_right_wrap{
+    flex: 2.5;
+    width: 100%;
+}
+.contact_right_wrap_in{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.contact_right_wrap_in
+.contact_waitforyou{
+    width: 100%;
+}
+.contact_right_wrap_in
+.contact_waitforyou p{
+    font-size: 2em;
+    font-weight: 600;
+}
+.contact_right_wrap_in
+.contact_phone{
+    margin-top: 20px;
+}
+*/
+.contact_right_wrap_in{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.contact_right_wrap_in
+.contact_waitforyou p{
+    font-size: 1.5em;
+}
+.contact_right_wrap_in
+.contact_phone p{
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: 400;
+}
+.contact_right_wrap_in
+.contact_email{
+    margin-top: 0px;
+}
+.contact_right_wrap_in
+.contact_email p{
+    font-size: 1.68em;
+    font-weight: 400;    
+}
+/************************************* FOOTER */
+.footer_wrap{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.footer_text h1{
+    font-size: 0.8em;
+    font-weight: 400;
+}

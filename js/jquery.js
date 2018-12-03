@@ -1,0 +1,55 @@
+$(function(){
+	$(window).load(function(){
+        $(".home_logo").fadeIn(3000);
+        $(".home_title").fadeIn(3000);  
+    });
+});
+
+$(function(){
+    $("#skills1").mouseover(function(e){
+        e.preventDefault();
+        $(".about_wrap").css({"width":"100%", "height":"100%",
+                              "background":"url(../img/about_2.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+    $("#skills1").mouseleave(function(){
+        $(".about_wrap").css({"background":"url(../img/about_1.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+    $("#skills2").mouseover(function(){
+        $(".about_wrap").css({"width":"100%", "height":"100%",
+                              "background":"url(../img/about_3.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+    $("#skills2").mouseleave(function(){
+        $(".about_wrap").css({"background":"url(../img/about_1.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+    $("#skills3").mouseover(function(){
+        $(".about_wrap").css({"width":"100%", "height":"100%",
+                              "background":"url(../img/about_4.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+    $("#skills3").mouseleave(function(){
+        $(".about_wrap").css({"background":"url(../img/about_1.jpg)",
+                              "background-size":"cover",
+                              "background-position":"center",
+                              "background-repeat":"no-repeat"
+                             });
+    });
+});
